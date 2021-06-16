@@ -1,1 +1,0 @@
-# israelnazareth.github.io
