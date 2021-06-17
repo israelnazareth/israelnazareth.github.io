@@ -12,12 +12,24 @@ body {
     text-decoration: none;
 }
 
-.name {    
-    font-weight: 700;
-}
-
 .foto {
     border-radius: 5%;
     box-shadow: 0px 0px 10px #FFC300;
     margin-top: 10px;
+}
+
+.skills {
+    margin-bottom: -10px;
+}
+
+#aboutme {
+    margin-bottom: -5px;
+}
+
+.someSkills {
+    margin-top: 40px;
+}
+
+.lastSkill {
+    margin-bottom: 40px;
 }
