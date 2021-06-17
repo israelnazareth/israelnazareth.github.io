@@ -1,0 +1,23 @@
+body {
+    background-color: #000814;
+    color: beige;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.buttons {
+    background-color: #FFC300;
+    color: #001D3D;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.name {    
+    font-weight: 700;
+}
+
+.foto {
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px #FFC300;
+    margin-top: 10px;
+}
