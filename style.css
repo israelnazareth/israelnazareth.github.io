@@ -4,18 +4,35 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.header {
+    text-align: center;
+}
+
 .buttons {
     background-color: #FFC300;
     color: #001D3D;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     text-decoration: none;
 }
 
-.foto {
+.image-container {
+    height: 240px;    
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descricao {
+    text-align: center;
+    margin: 0% 18%;
+}
+
+.foto1 {
     border-radius: 5%;
     box-shadow: 0px 0px 10px #FFC300;
-    margin-top: 10px;
+    max-width: 240px;
+    float: center;
 }
 
 .skills {
@@ -32,4 +49,12 @@ body {
 
 .lastSkill {
     margin-bottom: 40px;
+}
+
+.footer {
+    text-align: center;
+}
+
+div {
+    border: 2px solid white;
 }

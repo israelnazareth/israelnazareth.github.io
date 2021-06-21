@@ -9,27 +9,34 @@
         <link rel="stylesheet" href="style.css">
         <title>Portifólio</title>
     </head>
-    <body>
-        <h1>Israel dos Santos Nazareth</h1>
-        <a href="#aboutme" class="buttons">Sobre mim</a> |
-        <a href="#soft" class="buttons">Soft Skills</a> |
-        <a href="#hard" class="buttons">Hard Skills</a> |
-        <a href="#extra" class="buttons">Extra Skills</a>
+    <body>                     
+        <div class="header">
+            <h1>Israel dos Santos Nazareth</h1>
+            <a href="#aboutme" class="buttons">Sobre mim</a> |
+            <a href="#soft" class="buttons">Soft Skills</a> |
+            <a href="#hard" class="buttons">Hard Skills</a> |
+            <a href="#extra" class="buttons">Extra Skills</a>
+        </div>
         
-        <p id="foto"><img src="image/rael.jpeg" class="foto" width="320px" alt="foto rael"></p>
+        <div class="image-container">
+            <img src="image/rael.jpeg" width="380px" class="foto1" alt="foto rael">
+        </div>
 
-        <h2><p id="aboutme">Sobre mim</p></h2>
-        <p>Bem, meu nome é <em>Israel</em>, tenho 28 anos, brasileiro, nascido na cidade do <strong>Rio de Janeiro - RJ</strong>. Amante da tecnologia, apaixonado pela música,  multi-instrumentista, estudante de Desenvolvimento Web Full Stack e um pouco nerd/geek.</p>
-
-        <h2 class="someSkills">Algumas habilidades:</h2>
-        <h3><p id="soft" class="skills">Soft Skills:</p></h3>
-        <ul>
-            <li>Colaboração;</li>
-            <li>Trabalho em equipe;</li>
-            <li>Comunicação;</li>
-            <li>Proatividade;</li>
-        </ul>
-
+            <div class="descricao">
+                <h2><p id="aboutme">Sobre mim</p></h2>
+                <p>Bem, meu nome é <em>Israel</em>, tenho 28 anos, brasileiro, nascido na cidade do <strong>Rio de Janeiro - RJ</strong>. Amante da tecnologia, apaixonado pela música,  multi-instrumentista, estudante de Desenvolvimento Web Full Stack e um pouco nerd/geek.</p>
+            </div>        
+        
+        <div class="someSkills">
+            <h2>Algumas habilidades:</h2>
+            <h3><p id="soft" class="skills">Soft Skills:</p></h3>
+            <ul>
+                <li>Colaboração;</li>
+                <li>Trabalho em equipe;</li>
+                <li>Comunicação;</li>
+                <li>Proatividade;</li>
+            </ul>
+        </div>
         <h3><p id="hard" class="skills">Hard Skills (em desenvolvimento):</p></h3>
         <ul>
             <li>HTML;</li>
@@ -39,7 +46,6 @@
             <li>Bootstrap;</li>
             <li>SQL;</li>
         </ul>
-
         <h3><p id="extra"  class="skills">Extra Skills (das que eu me orgulho rs):</p></h3>
         <h4  class="skills">Com instrumentos musicais</h4>
         <ul>
@@ -48,12 +54,13 @@
             <li>Violão;</li>
             <li class="lastSkill">Bateria; (de curioso apenas rs)</li>
         </ul>
-
-        <a href="#foto" class="buttons">Foto</a> | 
-        <a href="https://www.youtube.com/channel/UCm-QQd9NknX0tu32-atWYVQ" target="_blank" class="buttons">Youtube</a> |
-        <a href="https://www.linkedin.com/in/israelnazareth/" target="_blank" class="buttons">LinkedIn</a> |
-        <a href="https://www.instagram.com/rael.22/" target="_blank" class="buttons">Instagram</a> |
-        <a href="https://github.com/israelnazareth" target="_blank" class="buttons">GitHub</a>
+        <div class="footer">
+            <a href="#foto" class="buttons">Foto</a> |
+            <a href="https://www.youtube.com/channel/UCm-QQd9NknX0tu32-atWYVQ" target="_blank" class="buttons">Youtube</a> |
+            <a href="https://www.linkedin.com/in/israelnazareth/" target="_blank" class="buttons">LinkedIn</a> |
+            <a href="https://www.instagram.com/rael.22/" target="_blank" class="buttons">Instagram</a> |
+            <a href="https://github.com/israelnazareth" target="_blank" class="buttons">GitHub</a>
+        </div>   
         
     </body>
 </html>
