@@ -20,7 +20,7 @@ body {
     height: 240px;    
     padding: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .descricao {
@@ -53,8 +53,4 @@ body {
 
 .footer {
     text-align: center;
-}
-
-div {
-    border: 2px solid white;
 }
