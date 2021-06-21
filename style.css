@@ -26,19 +26,19 @@ body {
 
 .descricao {
     text-align: center;
-    margin: 0% 25%;
+    margin: 0% 18%;
+}
+
+.photo {
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px #FFC300;
+    max-width: 240px;
+    float: center;
 }
 
 .link {
     color: beige;
     text-decoration: none;
-}
-
-.foto1 {
-    border-radius: 5%;
-    box-shadow: 0px 0px 10px #FFC300;
-    max-width: 240px;
-    float: center;
 }
 
 .skills {
