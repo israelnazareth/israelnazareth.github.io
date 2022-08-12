@@ -1,9 +1,11 @@
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Em construção...</h1>
+      <Navbar />
+      <footer className="footer">Footer</footer>
     </div>
   );
 }

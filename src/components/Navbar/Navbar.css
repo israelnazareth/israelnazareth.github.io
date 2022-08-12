@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  width: 1100px;
+}
+
+.name {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  border: 1px solid red;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  border: 1px solid red;
+}
+
+.contact-button {
+  font-family: var(--font-family-primary);
+  color: var(--text-color-secondary);
+  background-color: #fbe850;
+  font-size: 13px;
+  height: 50px;
+  width: 140px;
+}
