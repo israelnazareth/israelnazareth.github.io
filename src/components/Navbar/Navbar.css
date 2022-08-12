@@ -2,21 +2,21 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .navbar-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 1100px;
 }
 
 .name {
   font-family: var(--font-family-primary);
   font-size: 16px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .navlinks {
@@ -24,7 +24,7 @@
   justify-content: space-between;
   color: #ADADAD;
   width: 180px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .navlink-projects:hover,
