@@ -2,21 +2,21 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .navbar-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1100px;
 }
 
 .name {
   font-family: var(--font-family-primary);
   font-size: 16px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .navlinks {
@@ -24,7 +24,13 @@
   justify-content: space-between;
   color: #ADADAD;
   width: 180px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.navlink-projects,
+.navlink-techs {
+  color: #ADADAD;
+  transition: all .1s ease-in-out;
 }
 
 .navlink-projects:hover,
@@ -36,9 +42,15 @@
 .contact-button {
   font-family: var(--font-family-primary);
   color: var(--text-color-secondary);
+  font-weight: 700;
   background-color: #fbe850;
   font-size: 13px;
   height: 50px;
   width: 140px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #c5b640;
 }
