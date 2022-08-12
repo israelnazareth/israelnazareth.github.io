@@ -1,0 +1,33 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 1100px;
+}
+
+.project {
+  /* border: 1px solid red; */
+  width: 540px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 540px;
+}
+
+.project-title {
+  font-family: var(--font-family-primary);
+  font-size: 32px;
+}
+
+.project-description {
+  color: #ADADAD;
+}
