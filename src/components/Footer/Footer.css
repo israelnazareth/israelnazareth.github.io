@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  margin-top: auto;
+  background-color: var(--background-color-secondary);
+  /* border: 1px solid red; */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px 0;
+  /* border: 1px solid red; */
+  width: 1100px;
+}
+
+.footer-name {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  /* border: 1px solid red; */
+}
+
+.socials-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  width: 130px;
+  /* border: 1px solid red; */
+}
+
+.socials-contact a {
+  height: 30px;
+}
