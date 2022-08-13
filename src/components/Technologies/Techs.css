@@ -1,0 +1,48 @@
+.techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-secondary);
+  border: 1px solid red;
+}
+
+.techs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1100px;
+  border: 1px solid red;
+}
+
+.techs-h1 {
+  font-family: var(--font-family-primary);
+  font-size: 40px;
+  border: 1px solid red;
+}
+
+.techs-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 100px;
+  margin-bottom: 26px;
+  border: 1px solid red;
+}
+
+.techs-content svg {
+  display: block;
+}
+
+.techs-name {
+  text-align: center;
+  font-size: 20px;
+}
+
+.techs-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
