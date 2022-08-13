@@ -9,7 +9,9 @@ const Navbar = () => {
           <a className="navlink-projects" href="#projects">Projetos</a>
           <a className="navlink-techs" href="#techs">Tecnologias</a>
         </div>
-        <button className="contact-button">Contato</button>
+        <a href="#contact">
+          <button className="contact-button">Contato</button>
+        </a>
       </div>
     </div>
   )
