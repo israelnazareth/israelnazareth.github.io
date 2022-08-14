@@ -27,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 270px;
+  width: 275px;
   height: 260px;
   border: 2px solid white;
 }
@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 906px) {
+@media (min-width: 921px) {
   .techs-container {
     justify-content: space-between;
   }
@@ -53,6 +53,6 @@
 
 @media (min-width: 1199px) {
   .techs-container {
-    max-width: 1199px;
+    max-width: 1200px;
   }
 }
