@@ -1,0 +1,30 @@
+[
+  {
+    "img": "https://i.imgur.com/3tOGidz.jpg",
+    "title": "World Ranks",
+    "description": "Esta é uma aplicação que traz informações e detalhes sobre países a partir de uma API, capaz de ordenar países por nome, tamanho da população, extensão territorial e Índice Gini.",
+    "githubURL": "https://github.com/israelnazareth/world-ranks",
+    "pageURL": "https://rankingtheworld.vercel.app/"
+  },
+  {
+    "img": "https://i.imgur.com/iGDgKkO.jpg",
+    "title": "Free Market",
+    "description": "Este foi um projeto feito em grupo, uma versão simplificada de uma loja online que consome dados da API do Mercado Livre, capaz de ver detalhar o produto, adicionar a um carrinho e simular uma compra.",
+    "githubURL": "https://github.com/israelnazareth/freemarket",
+    "pageURL": "https://freemarket.vercel.app/"
+  },
+  {
+    "img": "https://i.imgur.com/SuhaqCt.jpg",
+    "title": "TrybeTunes",
+    "description": "Esta é uma aplicação que consome dados da API do iTunes, capaz de reproduzir músicas dais mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
+    "githubURL": "https://github.com/israelnazareth/trybetunes",
+    "pageURL": "https://your-trybetunes.vercel.app/"
+  },
+  {
+    "img": "https://i.imgur.com/tTXUoQn.jpg",
+    "title": "Pricing Table",
+    "description": "Este é um pequeno projeto que eu construí com o principal intuito de treinar habilidades de criação de componentes no React com Bootstrap.",
+    "githubURL": "https://github.com/israelnazareth/pricing-table",
+    "pageURL": "https://your-pricing-table.vercel.app/"
+  }
+]
