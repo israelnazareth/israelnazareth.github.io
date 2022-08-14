@@ -4,9 +4,9 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-      <div class="footer-container">
+      <div className="footer-container">
         <a href="/" className="footer-name">Israel Nazareth</a>
-        <div class="socials-contact">
+        <div className="socials-contact">
           <a href="https://www.linkedin.com/in/israelnazareth/" target="blank">
             <GrLinkedin />
           </a>
