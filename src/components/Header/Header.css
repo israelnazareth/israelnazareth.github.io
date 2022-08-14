@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   padding: 32px 24px;
-  /* border: 1px solid red; */
 }
 
 .title {
@@ -39,32 +38,36 @@
   .paragraph {
     max-width: 50%;
   }
+
+  /* Typewriting effect */
+  .header-content h1 {
+    overflow: hidden;
+    border-right: .15em solid #fbe850;
+    white-space: nowrap;
+    margin-right: 495px;
+    animation: 
+      typing 2s steps(30, end),
+      blink-caret .9s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 495px }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fbe850; }
+  }
+  /* end effect */
 }
 
 @media (min-width: 1199px) {
   .header {
     width: 1200px;
   }
-}
 
-/* Typewriting effect */
-/* .header-content h1 {
-  overflow: hidden;
-  border-right: .15em solid #fbe850;
-  white-space: nowrap;
-  margin-right: 546px;
-  animation: 
-    typing 2s steps(30, end),
-    blink-caret .9s step-end infinite;
+  .header-content h1 {
+    margin-right: 670px;
+  }
 }
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 555px }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #fbe850; }
-} */
-/* end effect */
