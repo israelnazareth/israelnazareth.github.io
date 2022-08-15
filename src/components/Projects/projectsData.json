@@ -9,7 +9,7 @@
   {
     "img": "https://i.imgur.com/iGDgKkO.jpg",
     "title": "Free Market",
-    "description": "Este foi um projeto feito em grupo, uma versão simplificada de uma loja online que consome dados da API do Mercado Livre, capaz de ver detalhar o produto, adicionar a um carrinho e simular uma compra.",
+    "description": "Este foi um projeto feito em grupo, uma versão simplificada de uma loja online que consome dados da API do Mercado Livre, capaz de detalhar o produto, adicionar a um carrinho e simular uma compra.",
     "githubURL": "https://github.com/israelnazareth/freemarket",
     "pageURL": "https://freemarket.vercel.app/"
   },
