@@ -14,7 +14,7 @@ const Techs = () => {
         <div className="techs-data">
           <FaHtml5 />
           <FaCss3Alt />
-          <h1 className="techs-name">Html e Css</h1>
+          <h1 className="techs-name">HTML5 e CSS3</h1>
         </div>
         <div className="techs-data">
           <FaJs />
