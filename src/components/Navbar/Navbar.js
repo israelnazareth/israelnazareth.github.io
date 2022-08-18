@@ -14,7 +14,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <div className="navbar" id="navbar">
+    <div className="navbar home" id="home">
       <div className="navbar-content">
         <a href="/" className="name">Israel Nazareth</a>
         <div className="navlinks">
@@ -31,4 +31,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
