@@ -16,7 +16,7 @@ const Footer = () => {
             <GrInstagram />
           </a>
         </div>
-        <p>2022 &copy; Desenvolvido por Israel Nazareth</p>
+        <p className="copyright">&copy; 2022 | Israel Nazareth</p>
         <a href="#home" className="button-to-top">
           <GrLinkTop title='Voltar ao topo' />
         </a>

@@ -20,13 +20,6 @@
   margin: 0;
 }
 
-.footer-name {
-  display: flex;
-  justify-content: center;
-  font-family: var(--font-family-primary);
-  font-size: 16px;
-}
-
 .socials-contact {
   display: flex;
   justify-content: space-between;
@@ -37,6 +30,10 @@
 
 .socials-contact a {
   height: 30px;
+}
+
+.copyright {
+  font-size: 14px;
 }
 
 .button-to-top svg {
