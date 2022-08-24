@@ -1,4 +1,4 @@
-import { GrGithub, GrInstagram, GrLinkedin, GrLinkTop } from 'react-icons/gr'
+import { GrGithub, GrLinkedin, GrLinkTop } from 'react-icons/gr'
 import { BsWhatsapp } from 'react-icons/bs'
 import './Footer.css'
 
@@ -12,9 +12,6 @@ const Footer = () => {
           </a>
           <a href="https://github.com/israelnazareth" target="blank" title="GitHub">
             <GrGithub />
-          </a>
-          <a href="https://www.instagram.com/rael.22/" target="blank" title="Instagram">
-            <GrInstagram />
           </a>
           <a href="https://api.whatsapp.com/send?phone=5521972754631" target="blank" title="WhatsApp">
             <BsWhatsapp />
