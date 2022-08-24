@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 30px;
-  width: 140px;
+  width: 165px;
 }
 
 .socials-contact a {
@@ -34,6 +34,7 @@
 
 .copyright {
   font-size: 14px;
+  text-align: center;
 }
 
 .button-to-top svg {
