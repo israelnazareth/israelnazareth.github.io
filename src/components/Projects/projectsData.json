@@ -1,5 +1,12 @@
 [
   {
+    "img": "https://i.imgur.com/i9Y4kTc.jpg",
+    "title": "Brazil News",
+    "description": "Esta é uma aplicação que traz notícias atualizadas através de uma API. Capaz de filtrá-las por categoria e ao clicar em um 'card' de notícia, redireciona o usuário para a fonte que a publicou. Infelizmente não pude fazer o deploy da aplicação por limitações da própria API.",
+    "githubURL": "https://github.com/israelnazareth/brazil-news-project",
+    "pageURL": "https://github.com/israelnazareth/brazil-news-project"
+  },
+  {
     "img": "https://i.imgur.com/3tOGidz.jpg",
     "title": "World Ranks",
     "description": "Esta é uma aplicação que traz informações e detalhes sobre países a partir de uma API, capaz de ordenar países por nome, tamanho da população, extensão territorial e Índice Gini.",
@@ -19,6 +26,13 @@
     "description": "Esta é uma aplicação que consome dados da API do iTunes, capaz de reproduzir músicas dais mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
     "githubURL": "https://github.com/israelnazareth/trybetunes",
     "pageURL": "https://your-trybetunes.vercel.app/"
+  },
+  {
+    "img": "https://i.imgur.com/g8asZAn.png",
+    "title": "Responsive Table Challenge",
+    "description": "Este foi um desafio técnico que pude desenvolver para um processo seletivo de uma empresa. Consistia em criar uma tabela responsiva com dados mockados. O design foi fornecido pela empresa através de um protótipo no Figma.",
+    "githubURL": "https://github.com/israelnazareth/responsive-table-challenge",
+    "pageURL": "https://responsive-table-challenge.vercel.app/"
   },
   {
     "img": "https://i.imgur.com/tTXUoQn.jpg",
