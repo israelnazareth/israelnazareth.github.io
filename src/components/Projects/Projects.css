@@ -16,6 +16,7 @@
 }
 
 .project img {
+  border-radius: 7px;
   width: 100%;
   transition: all .3s ease-in-out;
 }
@@ -44,6 +45,7 @@
   font-family: var(--font-family-primary);
   color: var(--text-color-secondary);
   background-color: #fbe850;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 14px;
   border: none;

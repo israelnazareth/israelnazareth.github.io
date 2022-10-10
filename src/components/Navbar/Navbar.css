@@ -80,6 +80,7 @@
 
   .contact-button {
     display: inline;
+    border-radius: 4px;
     border: none;
     font-family: var(--font-family-primary);
     color: var(--text-color-secondary);
