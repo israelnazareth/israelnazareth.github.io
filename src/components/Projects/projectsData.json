@@ -4,7 +4,7 @@
     "title": "NLW Copa - Trilha Ignite",
     "description": "Esta é uma aplicação criada em um evento da Rocketseat que consiste em uma plataforma web e mobile com backend onde podemos criar bolões e fazer palpites dos jogos no tema da World Cup 2022.",
     "githubURL": "https://github.com/israelnazareth/nlwcopa-rocketseat",
-    "pageURL": "https://github.com/israelnazareth/nlwcopa-rocketseat"
+    "pageURL": "https://nlwcopa-rocketseat.vercel.app/"
   },
   {
     "img": "https://i.imgur.com/i9Y4kTc.jpg",
