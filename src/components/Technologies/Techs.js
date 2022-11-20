@@ -1,5 +1,5 @@
-import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJs, FaNodeJs, FaNpm, FaReact } from 'react-icons/fa';
-import { SiMongodb, SiMysql, SiRedux } from 'react-icons/si';
+import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaNpm, FaReact } from 'react-icons/fa';
+import { SiJavascript, SiMongodb, SiMysql, SiRedux, SiTypescript } from 'react-icons/si';
 import './Techs.css'
 
 const Techs = () => {
@@ -17,9 +17,9 @@ const Techs = () => {
           <h1 className="techs-name">HTML5 e CSS3</h1>
         </div>
         <div className="techs-data">
-          <FaJs />
-          <FaBootstrap />
-          <h1 className="techs-name">Javascript e Bootstrap</h1>
+          <SiJavascript className='logoJs'/>
+          <SiTypescript />
+          <h1 className="techs-name">Javascript e Typescript</h1>
         </div>
         <div className="techs-data">
           <FaGitAlt />

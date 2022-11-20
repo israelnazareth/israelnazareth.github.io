@@ -1,5 +1,12 @@
 [
   {
+    "img": "https://i.imgur.com/ej66TeF.png",
+    "title": "Waiter App",
+    "description": "Esta é uma aplicação criada no evento O Poder do Javascript organizado pelo Desenvolvedor Mateus Silva que consiste em uma plataforma web e mobile com backend onde podemos gerenciar pedidos internos de restaurantes.",
+    "githubURL": "https://github.com/israelnazareth/waiter-app",
+    "pageURL": "https://github.com/israelnazareth/waiter-app"
+  },
+  {
     "img": "https://i.imgur.com/wnomBB0.png",
     "title": "NLW Copa - Trilha Ignite",
     "description": "Esta é uma aplicação criada em um evento da Rocketseat que consiste em uma plataforma web e mobile com backend onde podemos criar bolões e fazer palpites dos jogos no tema da World Cup 2022.",
@@ -47,12 +54,5 @@
     "description": "Este foi um desafio técnico que pude desenvolver para um processo seletivo de uma empresa. Consistia em criar uma tabela responsiva com dados mockados. O design foi fornecido pela empresa através de um protótipo no Figma.",
     "githubURL": "https://github.com/israelnazareth/responsive-table-challenge",
     "pageURL": "https://responsive-table-challenge.vercel.app/"
-  },
-  {
-    "img": "https://i.imgur.com/tTXUoQn.jpg",
-    "title": "Pricing Table",
-    "description": "Este é um pequeno projeto que eu construí com o principal intuito de treinar habilidades de criação de componentes no React com Bootstrap.",
-    "githubURL": "https://github.com/israelnazareth/pricing-table",
-    "pageURL": "https://your-pricing-table.vercel.app/"
   }
 ]
