@@ -6,6 +6,13 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  duration: 1000,
+  mirror: true,
+})
+
 const App = () => {
   return (
     <div className="App">

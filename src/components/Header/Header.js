@@ -8,7 +8,7 @@ const Header = () => {
   const yearsOld = now.diff(bDay, 'year')
 
   return (
-    <header className="header">
+    <header data-aos="fade-in" className="header">
       <div className="header-content">
         <h1 className="title">Olá! Meu nome é Israel.</h1>
         <p className="paragraph">

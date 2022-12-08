@@ -5,7 +5,7 @@ import './Techs.css'
 const Techs = () => {
   return (
     <div className="techs" id="techs">
-      <div className="techs-container">
+      <div data-aos="fade-in" className="techs-container">
         <div className="techs-data">
           <FaReact />
           <SiRedux />

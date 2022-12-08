@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="projects" id="projects">
       <div className="projects-container">
         {projectsData.map(({ img, title, description, pageURL, githubURL }) => (
-          <div className="project" key={title}>
+          <div data-aos="fade-in" className="project" key={title}>
             <div className="project-content">
               <a href={pageURL} target="blank">
                 <img src={img} alt={title} />
