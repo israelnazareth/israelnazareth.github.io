@@ -8,10 +8,7 @@ import './App.css';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  duration: 1000,
-  mirror: true,
-})
+AOS.init({ duration: 500 })
 
 const App = () => {
   return (
