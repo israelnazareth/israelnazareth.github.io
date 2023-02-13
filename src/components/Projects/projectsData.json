@@ -1,27 +1,27 @@
 [
   {
-    "img": "https://i.imgur.com/nalpykJ.png",
+    "img": "https://i.imgur.com/9ZmaLGy.jpg",
     "title": "Waiter App",
     "description": "Esta é uma aplicação criada no evento O Poder do Javascript organizado pelo Desenvolvedor Mateus Silva que consiste em uma plataforma web e mobile com backend onde podemos gerenciar pedidos internos de restaurantes.",
     "githubURL": "https://github.com/israelnazareth/waiter-app",
     "pageURL": "https://github.com/israelnazareth/waiter-app"
   },
   {
-    "img": "https://i.imgur.com/P3e1ijp.png",
+    "img": "https://i.imgur.com/bCGG9eI.jpg",
     "title": "NLW Copa - Trilha Ignite",
     "description": "Esta é uma aplicação criada em um evento da Rocketseat que consiste em uma plataforma web e mobile com backend onde podemos criar bolões e fazer palpites dos jogos no tema da World Cup 2022.",
     "githubURL": "https://github.com/israelnazareth/nlwcopa-rocketseat",
     "pageURL": "https://nlwcopa-rocketseat.vercel.app/"
   },
   {
-    "img": "https://i.imgur.com/TCDTU82.jpg",
+    "img": "https://i.imgur.com/gjnzMWM.jpg",
     "title": "Brazil News",
     "description": "Esta é uma aplicação que traz notícias atualizadas através de uma API. Capaz de filtrá-las por categoria e ao clicar em um 'card' de notícia, redireciona o usuário para a fonte que a publicou. Infelizmente não pude fazer o deploy da aplicação por limitações da própria API.",
     "githubURL": "https://github.com/israelnazareth/brazil-news-project",
     "pageURL": "https://github.com/israelnazareth/brazil-news-project"
   },
   {
-    "img": "https://i.imgur.com/68HzpXu.jpg",
+    "img": "https://i.imgur.com/itTPlku.jpg",
     "title": "Ignite Lab - Design System",
     "description": "Esta foi uma participação em um evento online da Rocketseat. Aqui prototipamos o design do zero no Figma, criamos a aplicação usando o Vite com Typescript e ferramentas como Radix UI, Tailwind CSS, Storybook para documentar e fazer o deploy dos componentes.",
     "storybook": "https://israelnazareth.github.io/ignite-lab-design-system/",
@@ -29,28 +29,28 @@
     "pageURL": "https://ignite-lab-design-system-isn.vercel.app/"
   },
   {
-    "img": "https://i.imgur.com/uGFYjEi.jpg",
+    "img": "https://i.imgur.com/TXY5L5W.jpg",
     "title": "World Ranks",
     "description": "Esta é uma aplicação que traz informações e detalhes sobre países a partir de uma API, capaz de ordenar países por nome, tamanho da população, extensão territorial e Índice Gini.",
     "githubURL": "https://github.com/israelnazareth/world-ranks",
     "pageURL": "https://rankingtheworld.vercel.app/"
   },
   {
-    "img": "https://i.imgur.com/ECPgjqV.jpg",
+    "img": "https://i.imgur.com/ThvpRGE.jpg",
     "title": "Free Market",
     "description": "Este foi um projeto feito em grupo, uma versão simplificada de uma loja online que consome dados da API do Mercado Livre, capaz de detalhar o produto, adicionar a um carrinho e simular uma compra.",
     "githubURL": "https://github.com/israelnazareth/freemarket",
     "pageURL": "https://freemarket.vercel.app/"
   },
   {
-    "img": "https://i.imgur.com/MMXR9gS.jpg",
+    "img": "https://i.imgur.com/E7ZYmaL.jpg",
     "title": "TrybeTunes",
     "description": "Esta é uma aplicação que consome dados da API do iTunes, capaz de reproduzir músicas dais mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
     "githubURL": "https://github.com/israelnazareth/trybetunes",
     "pageURL": "https://your-trybetunes.vercel.app/"
   },
   {
-    "img": "https://i.imgur.com/dA8uRSk.png",
+    "img": "https://i.imgur.com/dlAsxxm.jpg",
     "title": "Responsive Table Challenge",
     "description": "Este foi um desafio técnico que pude desenvolver para um processo seletivo de uma empresa. Consistia em criar uma tabela responsiva com dados mockados. O design foi fornecido pela empresa através de um protótipo no Figma.",
     "githubURL": "https://github.com/israelnazareth/responsive-table-challenge",
