@@ -24,8 +24,9 @@
     "img": "https://i.imgur.com/68HzpXu.jpg",
     "title": "Ignite Lab - Design System",
     "description": "Esta foi uma participação em um evento online da Rocketseat. Aqui prototipamos o design do zero no Figma, criamos a aplicação usando o Vite com Typescript e ferramentas como Radix UI, Tailwind CSS, Storybook para documentar e fazer o deploy dos componentes.",
+    "storybook": "https://israelnazareth.github.io/ignite-lab-design-system/",
     "githubURL": "https://github.com/israelnazareth/ignite-lab-design-system/",
-    "pageURL": "https://israelnazareth.github.io/ignite-lab-design-system/"
+    "pageURL": "https://ignite-lab-design-system-isn.vercel.app/"
   },
   {
     "img": "https://i.imgur.com/uGFYjEi.jpg",
