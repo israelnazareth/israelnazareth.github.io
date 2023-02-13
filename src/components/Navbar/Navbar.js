@@ -21,10 +21,10 @@ const Navbar = () => {
           <a className="navlink-projects" href="#projects">Projetos</a>
           <a className="navlink-techs" href="#techs">Tecnologias</a>
         </div>
-        <a href="#contact">
+        <a href="#contact" aria-label="Entre em contato">
           <button className="contact-button">Contato</button>
         </a>
-        {isOpen && <MobileNavigator closeMenu={closeMenu}/>}
+        {isOpen && <MobileNavigator closeMenu={closeMenu} />}
         {isOpen ? openedIcon : closedIcon}
       </div>
     </div>
