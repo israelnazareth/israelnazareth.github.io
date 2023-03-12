@@ -1,5 +1,6 @@
 import './Header.css';
 import dayjs from 'dayjs';
+import me from '../../assets/me.jpg';
 
 const Header = () => {
   const bDay = dayjs('1992-10-27')
@@ -10,10 +11,28 @@ const Header = () => {
   return (
     <header data-aos="fade-in" className="header">
       <div className="header-content">
-        <h1 className="title">Olá! Meu nome é Israel.</h1>
-        <p className="paragraph">
-          Tenho {yearsOld} anos, moro no Rio de Janeiro, sou Desenvolvedor Web, apaixonado por tecnologia, computadores, iniciativas que causem impacto positivo na vida das pessoas de forma inovadora e amante da música.
-        </p>
+        <div className="header-image">
+          <img className="self-picture" src={me} alt="My self" />
+        </div>
+        <div className="header-texts">
+          <h1 className="title">Olá! Meu nome é Israel.</h1>
+          <p className="paragraph">
+            Tenho {yearsOld} anos, moro no Rio de Janeiro, sou um Desenvolvedor de Software com muita vontade de aprender, apaixonado por tecnologia, computadores e iniciativas que impactam positivamente a vida das pessoas. Estou sempre buscando aproveitar novas oportunidades de trabalhar com coisas novas, viver novas experiências e me aventurar em desafios que possam me tirar da zona de conforto.
+          </p>
+          <p className="paragraph">
+            Tenho experiência em algumas linguagens de programação como Javascript, Typescript, Python e estou sempre disposto a aprender novas ferramentas e tecnologias para melhorar minhas habilidades e conhecimentos.
+          </p>
+          <p className="paragraph">
+            Além disso, também estou familiarizado com metodologias ágeis de desenvolvimento de software, como Scrum e Kanban, e entendo a importância de trabalhar de forma eficiente e eficaz para alcançar os objetivos do projeto.
+          </p>
+          <p className="paragraph">
+            Em resumo, sou um desenvolvedor de software dedicado, apaixonado que encontrou na tecnologia a possibilidade de transformar a vida das pessoas e que está em constante evolução, sempre pronto para enfrentar novos desafios e criar soluções inovadoras.
+          </p>
+          <p className="paragraph">
+            Ah! E uma curiosidade sobre mim: Também sou músico! Toco guitarra, contra-baixo, violão e faço um barulho - literalmente - na bateria! A música tem um papel muito importante na minha vida! Vou deixar aqui o meu <a className='youtube' target="_blank" href='https://www.youtube.com/channel/UCm-QQd9NknX0tu32-atWYVQ' rel="noreferrer">canal no Youtube</a> pra você matar um pouco a curiosidade! 😄😄
+          </p>
+        </div>
+
       </div>
     </header>
   )
