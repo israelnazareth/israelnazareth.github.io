@@ -19,6 +19,7 @@ const Navbar = () => {
         <a href="/" className="name">Israel Nazareth</a>
         <div className="navlinks">
           <a className="navlink-projects" href="#projects">Projetos</a>
+          <a className="navlink-certificates" href="#certificates">Certificados</a>
           <a className="navlink-techs" href="#techs">Tecnologias</a>
         </div>
         <a href="#contact" aria-label="Entre em contato">

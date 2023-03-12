@@ -93,5 +93,6 @@
 @media (min-width: 1199px) {
   .projects {
     max-width: 1200px;
+    margin-top: 6rem;
   }
 }

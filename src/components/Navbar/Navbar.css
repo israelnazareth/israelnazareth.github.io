@@ -63,10 +63,11 @@
     display: flex;
     justify-content: space-between;
     color: #ADADAD;
-    width: 180px;
+    gap: 1rem;
   }
 
   .navlink-projects,
+  .navlink-certificates,
   .navlink-techs,
   .navlink-contact {
     color: #ADADAD;
@@ -74,6 +75,7 @@
   }
 
   .navlink-projects:hover,
+  .navlink-certificates:hover,
   .navlink-techs:hover {
     color: var(--text-color-primary);
     cursor: pointer;

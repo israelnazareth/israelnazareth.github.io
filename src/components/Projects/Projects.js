@@ -3,7 +3,8 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className="projects" id="projects">
+    <div data-aos="fade-in" className="projects" id="projects">
+      <h1 className="title">Projetos</h1>
       <div className="projects-container">
         {projectsData.map(({ img, title, description, pageURL, githubURL }) => (
           <div data-aos="fade-in" className="project" key={title}>

@@ -17,7 +17,7 @@ const Techs = () => {
           <h1 className="techs-name">HTML5 e CSS3</h1>
         </div>
         <div className="techs-data">
-          <SiJavascript className='logoJs'/>
+          <SiJavascript className='logoJs' />
           <SiTypescript />
           <h1 className="techs-name">Javascript e Typescript</h1>
         </div>

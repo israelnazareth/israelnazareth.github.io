@@ -100,3 +100,13 @@
     margin-right: 97px;
   }
 }
+
+@media (min-width: 1439px) {
+  .header {
+    margin: 32px auto;
+  }
+
+  .paragraph {
+    line-height: 1.5;
+  }
+}
