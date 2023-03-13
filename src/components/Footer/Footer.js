@@ -1,5 +1,6 @@
-import { GrGithub, GrLinkedin, GrLinkTop } from 'react-icons/gr'
+import { GrGithub, GrLinkedin } from 'react-icons/gr'
 import { BsWhatsapp } from 'react-icons/bs'
+import ButtonToTheTop from '../ButtonToTheTop'
 import './Footer.css'
 
 const Footer = () => {
@@ -21,9 +22,7 @@ const Footer = () => {
           <div>&copy; 2022 | Desenvolvido por Israel Nazareth</div>
           <div>Todos os direitos reservados</div>
         </div>
-        <a href="#home" className="button-to-top">
-          <GrLinkTop title='Voltar ao topo' />
-        </a>
+        <ButtonToTheTop />
       </div>
     </footer>
   )
