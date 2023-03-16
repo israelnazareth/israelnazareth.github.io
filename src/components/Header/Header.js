@@ -12,7 +12,7 @@ const Header = () => {
     <header data-aos="fade-in" className="header">
       <div className="header-content">
         <div className="header-image">
-          <img className="self-picture" src={me} alt="My self" />
+          <img className="self-picture" src={me} alt="My self" loading="eager" />
         </div>
         <div className="header-texts">
           <h1 className="title">Olá! Meu nome é Israel.</h1>

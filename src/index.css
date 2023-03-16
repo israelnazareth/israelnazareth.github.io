@@ -31,6 +31,15 @@ a {
   font: inherit;
 }
 
+img { 
+  user-select:none;
+}
+
+::selection {
+  background-color: #fbe850;
+  color: #000;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
