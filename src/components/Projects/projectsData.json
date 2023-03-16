@@ -1,5 +1,33 @@
 [
   {
+    "img": "https://i.imgur.com/ZyFvpRm.png",
+    "title": "Ignite Timer",
+    "description": "Este é um projeto criado na Trilha Ignite da Rocketseat onde foi desenvolvida uma aplicação web para gerenciamento de tempo onde o usuário dá um nome para a tarefa/projeto que irá executar e estima um tempo para realizá-la. A ideia é se assemelhar ao Método Pomodoro.",
+    "githubURL": "https://github.com/israelnazareth/ignite-timer",
+    "pageURL": "https://github.com/israelnazareth/ignite-timer"
+  },
+  {
+    "img": "https://i.imgur.com/P6FsVf0.png",
+    "title": "ToDo List",
+    "description": "Este é um projeto criado na Trilha Ignite da Rocketseat onde foi desenvolvida uma aplicação web para gerenciamento de tarefas rotineiras do usuário. As principais tecnologias utilizadas neste projeto foram React.js, Vite.js e Typescript.",
+    "githubURL": "https://github.com/israelnazareth/new-todo-list",
+    "pageURL": "https://your-todo-list-two.vercel.app/"
+  },
+  {
+    "img": "https://i.imgur.com/fxDrlO0.png",
+    "title": "Ignite Feed",
+    "description": "Este é um projeto criado na Trilha Ignite da Rocketseat onde foi desenvolvida uma página que simula um feed de redes sociais onde o usuário pode publicar, curtir ou excluir um comentário. As principais tecnologias utilizadas neste projeto foram React.js, Vite.js e Typescript.",
+    "githubURL": "https://github.com/israelnazareth/ignite-feed",
+    "pageURL": "https://github.com/israelnazareth/ignite-feed"
+  },
+  {
+    "img": "https://i.imgur.com/t1jnP6Y.png",
+    "title": "Desafio Lacrei Front-end",
+    "description": "Este foi um desafio técnico que pude desenvolver para um processo de trabalho voluntário para a ONG Lacrei. Consistia em criar uma página responsiva com rotas para a home page, pessoa usuária e profissional. O design foi fornecido pela organização através de um protótipo no Figma.",
+    "githubURL": "https://github.com/israelnazareth/desafio-lacrei-frontend",
+    "pageURL": "https://desafio-lacrei-frontend.vercel.app/"
+  },
+  {
     "img": "https://i.imgur.com/9ZmaLGy.jpg",
     "title": "Waiter App",
     "description": "Esta é uma aplicação criada no evento O Poder do Javascript organizado pelo Desenvolvedor Mateus Silva que consiste em uma plataforma web e mobile com backend onde podemos gerenciar pedidos internos de restaurantes.",
