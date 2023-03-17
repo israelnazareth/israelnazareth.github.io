@@ -29,7 +29,7 @@
 
 .menu-icon {
   display: flex;
-  color: #FFF;
+  color: var(--text-color-primary);
   font-size: 40px;
 }
 
@@ -63,7 +63,7 @@
   .navlinks {
     display: flex;
     justify-content: space-between;
-    color: #ADADAD;
+    color: var(--text-color-secondary);
     gap: 1rem;
   }
 
@@ -71,7 +71,7 @@
   .navlink-certificates,
   .navlink-techs,
   .navlink-contact {
-    color: #ADADAD;
+    color: var(--text-color-secondary);
     transition: all .1s ease-in-out;
   }
 
@@ -87,9 +87,9 @@
     border-radius: 4px;
     border: none;
     font-family: var(--font-family-primary);
-    color: var(--text-color-secondary);
+    color: var(--text-color-tertiary);
     font-weight: 700;
-    background-color: #fbe850;
+    background-color: var(--yellow-primary);
     font-size: 15px;
     height: 50px;
     width: 140px;
@@ -98,7 +98,7 @@
   }
 
   .contact-button:hover {
-    background-color: #c5b640;
+    background-color: var(--yellow-hover);
   }
 
   .menu-icon, .mobile-links {

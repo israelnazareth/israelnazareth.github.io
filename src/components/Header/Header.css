@@ -11,7 +11,7 @@
 }
 
 .paragraph {
-  color: #ADADAD;
+  color: var(--text-color-secondary);
   font-size: 14px;
 }
 
@@ -27,7 +27,7 @@
   margin: 0 auto;
   margin-bottom: 48px;
   border-radius: 50%;
-  border: 4px solid #fbe850;
+  border: 4px solid var(--yellow-primary);
   overflow: hidden;
   max-width: 500px;
 }
@@ -72,7 +72,7 @@
   /* Typewriting effect */
   .header-content h1 {
     overflow: hidden;
-    border-right: .15em solid #fbe850;
+    border-right: .15em solid var(--yellow-primary);
     white-space: nowrap;
     margin-right: 10px;
     animation: 
@@ -87,7 +87,7 @@
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #fbe850; }
+    50% { border-color: var(--yellow-primary); }
   }
   /* end effect */
 }

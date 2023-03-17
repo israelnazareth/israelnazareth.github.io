@@ -22,7 +22,7 @@
 .contact-paragraph {
   font-family: var(--font-family-secondary);
   font-size: 0.875rem;
-  color: #ADADAD;
+  color: var(--text-color-secondary);
   margin-bottom: 35px;
 }
 
@@ -34,7 +34,7 @@
 
 .contact input,
 .contact textarea {
-  color: #000;
+  color: var(--text-color-tertiary);
   border: 0;
   border-radius: 0.25rem;
   width: 100%;
@@ -44,28 +44,32 @@
 .contact input:focus,
 .contact textarea:focus {
   outline: 1px solid #000;
-  box-shadow: 0 0 0 5px #fbe850;
+  box-shadow: 0 0 0 5px var(--yellow-primary);
   transition: .1s;
 }
 
 .contact textarea::-webkit-scrollbar-thumb {
-  background: var(--background-color-secondary);
+  background: var(--bg-color-secondary);
 }
 
 .chars-counter {
-  color: #ADADAD;
+  color: var(--text-color-secondary);
   font-size: 0.875rem;
   text-align: right;
   margin: 4px 0 0 0;
+}
+
+.danger {
+  color: var(--danger);
 }
 
 .email-button {
   border: none;
   border-radius: 4px;
   font-family: var(--font-family-primary);
-  color: var(--text-color-secondary);
+  color: var(--text-color-tertiary);
   font-weight: 700;
-  background-color: #fbe850;
+  background-color: var(--yellow-primary);
   font-size: 15px;
   height: 50px;
   width: 140px;
@@ -74,7 +78,7 @@
 }
 
 .email-button:hover {
-  background-color: #c5b640;
+  background-color: var(--yellow-hover);
 }
 
 .link-button {

@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
+
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -8,6 +9,13 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  const counterRef = useRef(null);
+  const counter = counterRef.current;
+
+  message.length > 490 ?
+    counter?.classList.add('danger') :
+    counter?.classList.remove('danger');
 
   function validateField(e, message) {
     e.target.setCustomValidity(message)
@@ -73,11 +81,11 @@ const Contact = () => {
               type="email"
               id="email"
               placeholder="Email"
-              onInvalid={e => validateField(e, 'Insira um email válido')}
+              onInvalid={e => validateField(e, 'Insira um e-mail válido')}
               onInput={e => validateField(e, '')}
               onChange={e => setEmail(e.target.value)}
               value={email}
-              title="Insira um email válido"
+              title="Insira um e-mail válido"
               required
             />
           </label>
@@ -95,7 +103,7 @@ const Contact = () => {
               title="Escreva a sua mensagem"
               required
             />
-            <p className="chars-counter">{message.length}/500</p>
+            <p className="chars-counter" ref={counterRef}>{message.length}/500</p>
           </label>
           <button className="email-button" type="submit">Enviar</button>
         </form>

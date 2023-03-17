@@ -33,7 +33,7 @@
 
 .project-description {
   font-size: 14px;
-  color: #ADADAD;
+  color: var(--text-color-secondary);
 }
 
 .buttons-container {
@@ -43,8 +43,8 @@
 
 .button-left, .button-right {
   font-family: var(--font-family-primary);
-  color: var(--text-color-secondary);
-  background-color: #fbe850;
+  color: var(--text-color-tertiary);
+  background-color: var(--yellow-primary);
   border-radius: 4px;
   font-weight: 700;
   font-size: 14px;
@@ -57,7 +57,7 @@
 }
 
 .button-left:hover, .button-right:hover {
-  background-color: #c5b640;
+  background-color: var(--yellow-hover);
 }
 
 @media (min-width: 767px) {
