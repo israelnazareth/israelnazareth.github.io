@@ -1,3 +1,4 @@
+import ProgressBar from './components/ProgressBar';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
@@ -14,6 +15,7 @@ AOS.init({ duration: 500 })
 const App = () => {
   return (
     <div className="App">
+      <ProgressBar />
       <Navbar />
       <Header />
       <Projects />

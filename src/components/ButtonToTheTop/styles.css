@@ -1,7 +1,3 @@
-.button-fixed {
-  display: none;
-}
-
 .button-fixed svg {
   position: fixed;
   bottom: 30px;
