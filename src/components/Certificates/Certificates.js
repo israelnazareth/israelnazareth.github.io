@@ -10,7 +10,7 @@ const certificates = () => {
           <div data-aos="fade-in" className="certificate" key={title}>
             <div className="certificate-content">
               <a href={path} target="blank">
-                <img fetchpriority="high" src={img} alt={title} loading="lazy" />
+                <img fetchpriority="high" src={img} alt={title} loading="lazy" title={title} />
               </a>
             </div>
           </div>
