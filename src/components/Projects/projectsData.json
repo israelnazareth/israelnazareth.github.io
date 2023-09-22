@@ -46,7 +46,7 @@
     "title": "Brazil News",
     "description": "Esta é uma aplicação que traz notícias atualizadas através de uma API. Capaz de filtrá-las por categoria e ao clicar em um 'card' de notícia, redireciona o usuário para a fonte que a publicou. Infelizmente não pude fazer o deploy da aplicação por limitações da própria API.",
     "githubURL": "https://github.com/israelnazareth/brazil-news-project",
-    "pageURL": "https://github.com/israelnazareth/brazil-news-project"
+    "pageURL": "https://brazil-news.vercel.app/"
   },
   {
     "img": "https://i.imgur.com/itTPlku.jpg",
