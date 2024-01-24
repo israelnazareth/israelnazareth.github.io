@@ -5,6 +5,7 @@ import './Techs.css'
 const Techs = () => {
   return (
     <div className="techs" id="techs">
+      <h1 className="title">Tecnologias</h1>
       <div data-aos="fade-in" className="techs-container">
         <div className="techs-data">
           <FaReact />

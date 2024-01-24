@@ -1,8 +1,13 @@
 .techs {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: var(--bg-color-secondary);
+
+  h1 {
+    margin-bottom: 0;
+    padding: 0 24px;
+  }
 }
 
 .techs-container {
