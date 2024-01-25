@@ -1,6 +1,6 @@
 import './Header.css';
 import dayjs from 'dayjs';
-import me from '../../assets/me.jpg';
+import me from '../../assets/me.webp';
 
 const Header = () => {
   const bDay = dayjs('1992-10-27')
