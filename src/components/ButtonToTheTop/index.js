@@ -3,7 +3,7 @@ import './styles.css';
 
 const ButtonToTheTop = () => {
   return (
-    <a href="#home" className="button-fixed">
+    <a href="#home" aria-label="Home" className="button-fixed">
       <GrLinkTop />
     </a>
   )

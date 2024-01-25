@@ -10,7 +10,7 @@ const Projects = () => {
           <div data-aos="fade-in" className="project" key={title}>
             <div className="project-content">
               <a href={pageURL} target="blank">
-                <img fetchpriority="high" src={img} alt={title} />
+                <img fetchpriority="high" src={img} alt={title} width="100%" height="auto" />
               </a>
               <h1 className="project-title">{title}</h1>
               <p className="project-description">{description}</p>
