@@ -1,8 +1,26 @@
 .certificates {
   padding: 32px 24px;
-  padding-bottom: 0;
 }
 
+@media (min-width: 1023px) {
+  .certificates {
+    max-width: 1200px;
+		margin: 0 auto;
+  }
+}
+
+.certificate img {
+  border-radius: 7px;
+  width: 100%;
+  max-width: 600px;
+  transition: all .3s ease-in-out;
+}
+
+.certificate-content {
+  display: flex;
+  justify-content: center;
+}
+/*
 .certificates-container {
   display: flex;
   justify-content: center;
@@ -87,4 +105,4 @@
   .certificate img {
     height: 17.5rem;
   }
-}
+} */
