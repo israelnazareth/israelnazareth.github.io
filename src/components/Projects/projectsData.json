@@ -18,7 +18,7 @@
     "title": "Ignite Feed",
     "description": "Este é um projeto criado na Trilha Ignite da Rocketseat onde foi desenvolvida uma página que simula um feed de redes sociais onde o usuário pode publicar, curtir ou excluir um comentário. As principais tecnologias utilizadas neste projeto foram React.js, Vite.js e Typescript.",
     "githubURL": "https://github.com/israelnazareth/ignite-feed",
-    "pageURL": "https://github.com/israelnazareth/ignite-feed"
+    "pageURL": "https://ignite-timer-five-wheat.vercel.app/"
   },
   {
     "img": "projects/4.webp",
