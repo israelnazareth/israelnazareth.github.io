@@ -17,7 +17,7 @@ const Header = () => {
         <div className="header-texts">
           <h1 className="title">Olá! Meu nome é Israel.</h1>
           <p className="paragraph">
-            Tenho {yearsOld} anos, moro no Rio de Janeiro, sou um Desenvolvedor de Software com muita vontade de aprender, apaixonado por tecnologia, computadores e iniciativas que impactam positivamente a vida das pessoas. Estou sempre buscando aproveitar novas oportunidades de trabalhar com coisas novas, viver novas experiências e me aventurar em desafios que possam me tirar da zona de conforto.
+            Tenho {yearsOld} anos, moro no Rio de Janeiro, sou um Desenvolvedor de Software apaixonado por tecnologia, computadores e iniciativas que impactam positivamente a vida das pessoas. Estou sempre buscando aproveitar novas oportunidades de trabalhar com coisas novas, viver novas experiências e me aventurar em desafios que possam me tirar da zona de conforto.
           </p>
           <p className="paragraph">
             Tenho experiência em algumas linguagens de programação como Javascript, Typescript, Python e estou sempre disposto a aprender novas ferramentas e tecnologias para melhorar minhas habilidades e conhecimentos.
