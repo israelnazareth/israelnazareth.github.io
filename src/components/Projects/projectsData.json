@@ -4,7 +4,7 @@
     "title": "Ignite Timer",
     "description": "Este é um projeto criado na Trilha Ignite da Rocketseat onde foi desenvolvida uma aplicação web para gerenciamento de tempo onde o usuário dá um nome para a tarefa/projeto que irá executar e estima um tempo para realizá-la. A ideia é se assemelhar ao Método Pomodoro.",
     "githubURL": "https://github.com/israelnazareth/ignite-timer",
-    "pageURL": "https://github.com/israelnazareth/ignite-timer"
+    "pageURL": "https://ignite-timer-five-wheat.vercel.app/"
   },
   {
     "img": "projects/2.webp",
@@ -18,7 +18,7 @@
     "title": "Ignite Feed",
     "description": "Este é um projeto criado na Trilha Ignite da Rocketseat onde foi desenvolvida uma página que simula um feed de redes sociais onde o usuário pode publicar, curtir ou excluir um comentário. As principais tecnologias utilizadas neste projeto foram React.js, Vite.js e Typescript.",
     "githubURL": "https://github.com/israelnazareth/ignite-feed",
-    "pageURL": "https://ignite-timer-five-wheat.vercel.app/"
+    "pageURL": "https://github.com/israelnazareth/ignite-feed"
   },
   {
     "img": "projects/4.webp",
